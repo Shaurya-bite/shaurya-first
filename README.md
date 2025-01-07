@@ -1,2 +1,2 @@
-# shaurya-first
+# shaurya-bite.github.io
 my first project
