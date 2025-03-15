@@ -1,0 +1,44 @@
+/* Header styling */
+.fixed-top {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow effect */
+  }
+  
+  body {
+    padding-top: 56px; /* Adjust according to header height to avoid overlap */
+  }
+  /* Make header fixed */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1030;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  body {
+    padding-top: 56px;
+  }
+  
+  /* Centering and styling the staff cards */
+  .card img {
+    border: 3px solid #ccc;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  
+  .social-icons a {
+    margin: 0 5px;
+    color: #555;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .social-icons a:hover {
+    color: #000;
+  }
+  
